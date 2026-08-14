@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="background">
+        <img src="img/background.png" alt="">
+    </div>
+
+    <!-- Контейнер для медузы -->
+    <div id="jellyfish-container"></div>
+
+    <!-- Крестики -->
+    <div class="corner top-left">
+        <img src="img/cross.svg" alt="">
+    </div>
+    <div class="corner bottom-left">
+        <img src="img/cross.svg" alt="">
+    </div>
+    <div class="corner bottom-right">
+        <img src="img/cross.svg" alt="">
+    </div>
+
+    <!-- Информация -->
+    <div class="info">
+        <div id="text">
+            <p>[ date: 16.08.2026 ]</p>
+        </div>
+        <div id="text2">
+            <p>[ time: 00:00:00 MSK ]</p>
+        </div>
+    </div>
+
+    <div class="design">
+        <div class="center-wrapper">
+            <div class="text-one"></div>
+        </div>
+        <div class="logo"></div>
+    </div>
+
+    <div class="deegree">
+        <p id="degreeDisplay">30°</p>
+    </div>
+
+    <!-- Подключаем Three.js ПЕРЕД скриптом -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
