@@ -86,7 +86,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 0.5vw; 
+    margin-bottom: 0.5vw;
+    position: fixed;
+    top: 197vw;
     
 }
 
