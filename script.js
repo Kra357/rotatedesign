@@ -41,8 +41,7 @@ setInterval(updateDateTime, 1000);
 
 
 
-
-// ========== МЕДУЗА ==========
+// 
 
 document.addEventListener('DOMContentLoaded', function() {
 
