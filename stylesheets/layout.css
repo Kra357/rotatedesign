@@ -58,7 +58,9 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 1vw; 
+    margin-bottom: 1vw;
+    min-height: 40px; 
+    max-height: 80px; 
     
 }
 
